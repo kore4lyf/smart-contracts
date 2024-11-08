@@ -30,3 +30,10 @@ To create an app or a contract
 npx thirdweb create
 ```
 
+From there you can select a contract, you have an option select an empty or a prebuilt contract of ERC20, ERC721 and ERC1155.
+
+
+
+npx thirdweb@latest logout
+
+npx thirdweb@latest deploy

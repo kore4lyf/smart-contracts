@@ -5,7 +5,7 @@ pragma solidity >=0.7.0 <0.9.0;
 contract TipJar {
   address public owner;
 
-  event TipReceived(address indexed tipper, unint256 amount);
+  event TipReceived(address indexed tipper, uint256 amount);
   event TipWithdrawn(address owner, uint256 amount);
 
   constructor() {

@@ -5,7 +5,7 @@ contract HelloWorld {
   string public message;
 
   constructor() {
-    message = "Hello, World";
+    message = "Hello, World!";
   }
 
   function getMessage() public view returns (string memory) {

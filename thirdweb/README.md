@@ -41,3 +41,4 @@ npx thirdweb@latest deploy -k <Secrete API Key>
 2. **CoinFlip** - This contract mimics coin filp a guess game, where a user make a head (0) or tail (1) guess.
 3. **TipJar** - it mimics a crowd funding contract where a user can make donation or make a tip, and the contract owner can withdraw the all donation or tips from the contract.
 4. **MessageBoard** - A simple contract that allows people to create a message and store it on blockchain. They will also be able to retrieve the massage with the contract.
+5. **ProfileStatus** - A contract that stores a user's web3 addresses in form of a profile and all users to check the status of their profile (whether they have created their profile or not).

@@ -30,4 +30,9 @@ contract SimpleToken {
   function availableSupply () public view returns(uint256) {
     return address(this).balance;
   }
+
+  function transferEtherToContract(uint256 value) public payable{
+    require(value > 0);
+    
+  } 
 }
